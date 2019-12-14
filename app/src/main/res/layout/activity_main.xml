@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wall"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="cursive"
+            android:text="Hi buddy! Welcome To StoryTime"
+            android:textColor="#333333"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/login" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/textView"
+            android:background="#cccccc"
+            android:hint="Username"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="37dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/username"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/password"
+            android:background="#cccccc"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Password" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#cccccc"
+            android:text="Log In" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

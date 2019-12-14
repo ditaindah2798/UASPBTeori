@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rainbow"
+    tools:context=".About">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="StoryTime Application!"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="StoryTime adalah komunitas online bagi para pembaca yang menginginkan cerita- cerita yang menarik. Fungsinya tidak jauh berbeda dengan blogger. Kalian dapat membuat akun gratis untuk mulai membaca di StoryTime atau sekedar membaca postingan - postingan di StoryTime, entah itu cerita pendek, cerita bersambung, dll. Kalian juga dapat memberikan sebuah komentar kepad aplikasi kami. StoryTime juga mempunyai kemampuan untuk di baca di komputer, telepon, atau tablet pembacanya. Salah satu keunikannya adalah rata - rata pembaca di StoryTime adalah remaja yang kebanyakan mereka menginginkan hiburan semata selepas dari beban sekolah ataupun pekerjaan. Melalui StoryTime kalian bisa membaca berbagai cerita dengan gratis, entah cerita tersebut sudah di publikasikan atau belum atau pun cerita tersebut yang masih dalam bentuk cerita bersambung." />
+
+</FrameLayout>

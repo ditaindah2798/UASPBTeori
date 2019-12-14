@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wall"
+    tools:context=".homepage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="cursive"
+            android:text="Hi buddy! Welcome To StoryTime!"
+            android:textColor="#FF007F"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/buku" />
+
+
+        <Button
+            android:id="@+id/B_ChooseYourStory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Choose Your Story"
+            android:textColor="#000080"/>
+
+
+        <Button
+            android:id="@+id/Btn_Application"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="About Application"
+            android:textColor="#000080"/>
+
+
+        <Button
+            android:id="@+id/Bt_AboutMeMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="About Me More"
+            android:textColor="#000080"/>
+
+
+        <Button
+            android:id="@+id/Btn_Comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Comment"
+            android:textColor="#000080"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+

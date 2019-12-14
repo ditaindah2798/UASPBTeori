@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UASFIX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kritik">Berikan kritik dan saran maupun komentar dibawah ini yaaaa!</string>
+    <string name="email">Kirimkan ke email ditaindahsarii417@gmail.com</string>
+    <string name="to">To :</string>
+    <string name="email1">Email (ditaindahsarii417@gmail.com)</string>
+    <string name="message">Message :"</string>
+    <string name="komentar">Komentar :"</string>
+    <string name="send">Send :</string>
+</resources>
